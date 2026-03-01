@@ -1,0 +1,54 @@
+
+copilot-instructions.md file includes:
+
+Code style & formatting standards (indentation, line length, naming conventions)
+Documentation & JavaDoc requirements
+Java best practices (immutability, access modifiers, Optional usage)
+Exception handling guidelines
+Collections & generics rules
+SOLID principles and OOP design
+Performance & concurrency guidelines
+Testing standards
+Code organization practices
+Security requirements
+Copilot will now use these guidelines when generating or reviewing Java code in your workspace. You can customize this file further based on your team's specific needs.
+
+-----------------
+Steps to Fix the UglyCalculator Class
+
+Open Copilot Chat (Ctrl+Shift+I or Cmd+Shift+I on Mac)
+
+Ask Copilot to refactor the code:
+Fix the UglyCalculator.java file to comply with the Java coding standards 
+defined in .github/copilot-instructions.md
+
+Fix the UglyCalculator.java file to comply with the Java coding standards defined in .github/copilot-instructions.md
+Or be more specific:
+Refactor UglyCalculator.java to follow all the Java coding standards including:
+- Proper indentation (4 spaces)
+- JavaDoc comments
+- Generic types
+- Exception handling
+- SOLID principles
+
+Refactor UglyCalculator.java to follow all the Java coding standards including:- Proper indentation (4 spaces)- JavaDoc comments- Generic types- Exception handling- SOLID principles
+Copilot will then:
+
+Reference the coding standards from your instructions file
+Identify all violations in the class
+Provide a corrected version that adheres to all standards
+
+What Copilot Will Fix
+Based on the instruction file, it will address:
+
+✅ Consistent 4-space indentation
+✅ Add comprehensive JavaDoc
+✅ Use proper generics (List<String>)
+✅ Add access modifiers
+✅ Replace null with Optional
+✅ Catch specific exceptions
+✅ Proper error messages
+✅ Keep lines under 100 characters
+✅ Follow naming conventions
+✅ Add proper documentation
+The instructions file acts as a style guide and constraint that Copilot will use to generate better, standards-compliant code.
