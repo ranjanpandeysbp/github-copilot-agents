@@ -53,6 +53,6 @@ python-env-tools/**
 python_files/tests/*/.data/.coverage*
 python_files/tests/*/.data/*/.coverage*
 src/testTestingRootWkspc/coverageWorkspace/.coverage
-
+.venv/
 # ignore ai artifacts generated and placed in this folder
 ai-artifacts/*
