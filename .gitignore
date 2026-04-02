@@ -56,3 +56,4 @@ src/testTestingRootWkspc/coverageWorkspace/.coverage
 .venv/
 # ignore ai artifacts generated and placed in this folder
 ai-artifacts/*
+.env
