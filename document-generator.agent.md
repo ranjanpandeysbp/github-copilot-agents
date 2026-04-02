@@ -19,8 +19,8 @@ Orchestrate and execute comprehensive code documentation generation by delegatin
 2. Invoke the `doc_generator` skill to analyze downloaded repositories and generate documentation
 
 Refer to the skill files for detailed behavior and specifications:
-- See `doc_agent.skill.md` for repository acquisition workflow
-- See `doc_generator.skill.md` for documentation generation and output specifications
+- See `.github/skills/doc_agent.skill.md` for repository acquisition workflow
+- See `.github/skills/doc_generator.skill.md` for documentation generation and output specifications
 
 ## Instructions
 When the user says "start documenting":
@@ -45,3 +45,5 @@ When the user says "start documenting":
 - Do not skip the doc_agent skill step; it ensures user provides the correct repositories
 - Documentation outputs will be automatically saved to the `docs_report/` folder
 - Each run creates timestamped reports to preserve documentation history
+- Use Mermaid syntax for all diagrams
+- Documentation should be simple to read and useful for beginners and experienced developers
